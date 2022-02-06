@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap');
+
+html, body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+    background-image: url('../background.jpg');
+    background-attachment: scroll;
+}
+
+#inner
+{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 850px) 
+{
+    body
+    {
+        background-image: url('../background_850px.jpg');
+        background-attachment: scroll;
+    }
+}
